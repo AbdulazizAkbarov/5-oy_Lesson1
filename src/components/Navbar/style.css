@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/recoleta');
+
+nav{
+    background-color: #163A24;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 130px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;
+}
+
+
+nav ul li a {
+    text-decoration: none !important;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+nav ul button{
+    padding: 12px 30px ;
+    background-color: #198C36;
+    border-radius: 20px;
+    border: none;
+    color: white;
+
+}
+.hero{
+    background-color: #163A24;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 130px 0 130px;
+}
+
+.heroText{
+    color: white;
+    width: 430px;
+
+}
+
+.heroText h1{
+    font-family: Recoleta;
+    font-size: 48px;
+}
+
+.heroText p{
+    font-size: 18px;
+    margin-top: 10px;
+}
